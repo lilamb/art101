@@ -1,6 +1,32 @@
-/* this css file will only style the homepage of our site */
+body{ 
+  background-color: black;
+  border: solid 3px blue;
+  padding: 10px;
+}
 
-.cat-photo {
-  margin: 10px;
-  max-width: 500px;
+#Indroduction {
+  color: white;
+  border: solid 3px rgb(75, 75, 104);
+  padding: 10px;
+}
+
+h2{
+  color: white;
+}
+
+h1 {
+  color: rgb(136, 136, 232);
+  text-align: center;
+}
+
+#my-protrait{
+  height: 500px;
+  width: 300px;
+  
+}
+
+.centerimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
