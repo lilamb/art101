@@ -4,6 +4,24 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 3px #910505;
+    background-color: #000000;
+    color: white
+    ;
   }
+
+h1{
+  color: rgb(0, 0, 0);
+}
+
+h2{
+  color: white;
+}
+
+p{
+  color: white;
+}
+
+#thunderbird{
+  width: 400px;
+}
