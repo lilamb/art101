@@ -3,13 +3,13 @@
 // Date: 4/25/2023
 
   //variables 
-    make = "Ford"; 
-    model = "Thunderbird"; 
-    color = "Rusty Red"
-    year = "1960";
+    var make = "Ford"; 
+    var model = "Thunderbird"; 
+    var color = "Rusty Red"
+    var year = "1960";
 
   //calculate 
-    age = 2023 - year;
+    var age = 2023 - year;
 
 //Note, that that is WRITELN with an "L" not WRITEIN
 document.writeln("Make: " + make + "<br>");
