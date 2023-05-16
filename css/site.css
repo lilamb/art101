@@ -24,13 +24,30 @@ h1 {
   margin: 10px;
   padding: 10px;
   border: solid 3px #ff0000;
-  background-color: #f0b6dd;
+  background-color: #c03190;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
+.minorsection {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #ffeac2;
-  background-color: #c4ffdc;
+  border: solid 1px #332407;
+  background-color: #1b8746;
+}
+
+#c-button{
+  color: rgb(0, 0, 0);
+}
+
+#r-button{
+  color: rgb(0, 0, 0);
+}
+
+
+#p-button{
+  color: rgb(0, 0, 0);
+}
+
+.special{
+  background-color: rgb(19, 45, 67);
 }
