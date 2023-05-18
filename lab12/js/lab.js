@@ -20,7 +20,9 @@ function sortingHat(str) {
     }
 }
 
-//now conect it to the button
+ 
+
+//now conect it to the button but I suck at converting so yaya
 // var myButton =  document.getElementById("button");
 // myButton.addEventListener("click", function(){
 //     var name = document.getElementById("input").value;
