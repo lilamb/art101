@@ -4,12 +4,12 @@
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
-  font-family: sans-serif;
+  font-family: monospace;
 }
 
 /* and we can have rules that overlap other rules, both take effect */
@@ -20,37 +20,42 @@ h1 {
 }
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
+
+body {
+  background-color: #000000;
+}
+
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 3px #000000;
-  background-color: #cbf6da;
+  border: solid 3px #5539f5;
+  background-color: #103808;
 }
 
 .minor-section-1 {
   margin: 10px;
   padding: 10px;
-  border: solid 3px cornflowerblue;
-  background-color: #f3bbbb;
+  border: solid 3px rgb(150, 97, 243);
+  background-color: #8abd8c;
 }
 
 .minor-section-2 {
   margin: 10px;
   padding: 10px;
-  border: solid 3px cornflowerblue;
-  background-color: #ff9696;
+  border: solid 3px rgb(150, 97, 243);
+  background-color: #8abd8c;
 }
 
 .minor-section-3 {
   margin: 10px;
   padding: 10px;
-  border: solid 3px cornflowerblue;
-  background-color: #f96565;
+  border: solid 3px rgb(150, 97, 243);
+  background-color: #8abd8c;
 }
 
 .minor-section-4 {
   margin: 10px;
   padding: 10px;
-  border: solid 3px cornflowerblue;
-  background-color: #fd4646;
+  border: solid 3px rgb(150, 97, 243);
+  background-color: #8abd8c;
 }
